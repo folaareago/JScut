@@ -1,13 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import newFolder from './components/newFolder';   
 
-
-function App() {
+function newFolder() {
   return (
     <div className="App">
       <header className="App-header">
-        <newFolder/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -34,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default newFolder;
