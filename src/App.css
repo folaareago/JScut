@@ -1,3 +1,13 @@
+/* body {
+  margin: 0 !important;
+  padding: 0;
+} */
+
+
+h6,h4,h2,h1,h3,h5{
+   margin: 0;
+}
+
 .card-design {
   background-color: ;
 }
@@ -14,17 +24,34 @@
 }
 
 .py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.py-3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
+.py-2{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+
+.pt-1r{
+  padding-top: 1rem;
+}
+
+.addin-pt{
+  padding-top: 2.5rem;
+}
 .bpy-4{
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
 }
 .px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
 }
 
 .body-section{
@@ -46,7 +73,7 @@
 .card-design {
   background-color: #ffffff;
   width: 32.125rem;
-  height: 34.75rem;
+  height: 31.75rem;
 }
 
 .d-flex {
@@ -61,12 +88,103 @@
 
 .form-design-full {
   flex-basis: 100%;
+  padding: 1rem 0rem;
+  padding-left: 10px;
+  background-color: #EBECF0;
+  border: none;
+  color: #97A0AF;
 }
 
 .form-design-half {
   flex-basis: 50%;
+   padding: 1rem 0rem;
+   padding-left: 10px;
+   background-color: #EBECF0;
+  border: none;
+  color: #97A0AF;
 }
 
 .form-width {
   /* height: 60px; */
+}
+
+
+.text-lg{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+
+
+.text-sm{
+  font-size: 1rem;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+
+.colorGreen{
+  color: #97E7A2;
+}
+
+.btnColor{
+  background-color: #205363;
+  padding: 1rem 0;
+  color:#ffffff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+
+.pr-3{
+  padding-right: 0.4rem;
+}
+
+.divider{
+  border: 1px solid #c4c4c4;
+  width: 100%;
+}
+
+.or-section {
+  padding: 0 0.9rem;
+}
+
+.form-reset {
+  margin-right: 0.7rem;
+}
+
+.small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #A4ACB9;
+}
+
+
+.s-color {
+  color: #42526E;
+}
+
+.pextra {
+  padding-top: 1.6rem;
+}
+
+
+
+/* media query section */
+
+@media screen and (max-width: 600px) {
+ 
+  .card-design{
+    width: auto;
+    height: auto;
+  }
+
+  .body-section {
+    background-color: #fff;
+  }
 }

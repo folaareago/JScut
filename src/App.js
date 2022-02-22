@@ -56,26 +56,38 @@ function App() {
       </div>
       <div className="body-section center-box">
         <div className="center-text">
-          <div className="card-design py-4 px-4">
-            <h4 className=""> Create Account</h4>
-            <small>
+          <div className="card-design py-4 addin-pt px-4">
+            <h6 className=" text-lg py-3"> Create Account</h6>
+            <h4 className="text-sm py-3">
               {" "}
-              Already have an account? <span> Sign in</span>
-            </small>
+              Already have an account? <span className="colorGreen"> Sign in</span>
+            </h4>
+           
             <div className="bpy-4 d-flex ">
-              <button  className="form-design-full form-width∆">Sign Up with Google</button>
+              <button  className="form-design-full form-width btnColor">
+                <span className="pr-3"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.207 6.64062H8.15039V9.54102H12.1816C12.0078 10.4785 11.4805 11.2715 10.6855 11.8027C10.0137 12.252 9.15625 12.5176 8.14844 12.5176C6.19726 12.5176 4.54688 11.1992 3.95703 9.42773C3.80859 8.97852 3.72266 8.49805 3.72266 8.00391C3.72266 7.50977 3.80859 7.0293 3.95703 6.58008C4.54883 4.81055 6.19922 3.49219 8.15039 3.49219C9.25 3.49219 10.2363 3.87109 11.0137 4.61328L13.1621 2.46289C11.8633 1.25195 10.1699 0.509766 8.15039 0.509766C5.22266 0.509766 2.68945 2.18945 1.45703 4.63867C0.949219 5.65039 0.660156 6.79492 0.660156 8.00586C0.660156 9.2168 0.949219 10.3594 1.45703 11.3711C2.68945 13.8203 5.22266 15.5 8.15039 15.5C10.1738 15.5 11.8691 14.8281 13.1074 13.6836C14.5234 12.3789 15.3418 10.457 15.3418 8.17383C15.3418 7.64258 15.2949 7.13281 15.207 6.64062Z" fill="white"/>
+</svg>
+</span>Sign Up with Google</button>
+
             </div>
-            {/* line with or */}
+            <div className="d-flex py-2"> 
+                 <div className="divider"> </div>
+                 <div className="or-section">or </div>
+                 <div className="divider"> </div>
+            </div>
             <div>
-              <div className="d-flex form">
+              <div className="d-flex py-3 form">
+               
                 <input
                   type="text"
                   id="fname"
                   name="fname"
-                  className="form-design-half"
+                  className="form-design-half form-reset"
                   placeholder="First Name"
                 />
-
+              
+             
                 <input
                   type="text"
                   className="form-design-half"
@@ -83,8 +95,9 @@ function App() {
                   name="lname"
                   placeholder="Last name"
                 />
+             
               </div>
-              <div className="d-flex ">
+              <div className="d-flex py-3 ">
                 <input
                   type="text"
                   className="form-design-full"
@@ -102,13 +115,16 @@ function App() {
                   placeholder="Password"
                 />
               </div>
-              <small>
+              <h4 className="small py-2">
                 {" "}
-                By signing up, I agree to the Terms of Service and Privacy
-                Statement
-              </small>
+                By signing up, I agree to the <span className="s-color"> Terms of Service </span> and <span className="s-color"> Privacy
+                Statement </span> 
+              </h4>
               <div>
-                {/* <input type="submit"> Submit </input> */}
+              <div className="bpy-4 d-flex pextra ">
+              <input className="form-design-full form-width btnColor" type="submit" value="Sign Up with Email"/> 
+
+            </div>
               </div>
             </div>
           </div>
