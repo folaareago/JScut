@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.card-design {
+  background-color: ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background: #F4F5F7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bpy-4{
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.body-section{
+  background-color: #F4F5F7;
+  height: 93vh;
+ 
+}
+
+.center-box {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.center-text {
+  text-align: center;
+}
+.card-design {
+  background-color: #ffffff;
+  width: 32.125rem;
+  height: 34.75rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+
+}
+
+.form-design-full {
+  flex-basis: 100%;
+}
+
+.form-design-half {
+  flex-basis: 50%;
+}
+
+.form-width {
+  /* height: 60px; */
 }
